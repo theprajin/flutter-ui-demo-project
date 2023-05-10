@@ -15,7 +15,6 @@ class DetailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.green.shade400,
         title: Text(place.name),
       ),
       body: SafeArea(
